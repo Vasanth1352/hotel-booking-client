@@ -1,0 +1,80 @@
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    height: 60px; /* Ensures navbar has a fixed height */
+}
+
+/* ✅ Add spacing between buttons */
+.targets {
+    display: flex;
+    gap: 20px; /* Space between About, Contact, and Login */
+}
+
+/* ✅ Push the content down to prevent overlap */
+.page-content {
+    margin-top: 0; /* Creates space below navbar */
+}
+
+/* ✅ Center the search bar */
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Takes full viewport height */
+}
+
+/* ✅ Ensure search bar is centered and styled well */
+.search-bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    width: 70%;
+    max-width: 800px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Inputs */
+.search-bar input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 150px;
+}
+
+/* Search Button */
+.search-bar button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.search-bar button:hover {
+    background-color: #0056b3;
+}
+
+/* Hotels Section */
+.all-hotels {
+    margin-top: 50px;
+    padding: 20px;
+}

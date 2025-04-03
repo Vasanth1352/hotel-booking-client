@@ -1,0 +1,72 @@
+/* Center the signup form */
+.signup-container {
+    display: grid;
+    justify-content: center;
+    width: 100vw;  /* Full viewport height */
+    background-color: #f4f4f4;
+  }
+  
+  /* Signup box styling */
+  .signup-box {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    text-align: center;
+
+  }
+  
+  /* Style for form inputs */
+  .signup-box input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Style for the submit button */
+  .signup-box button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .signup-box button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Success and error messages */
+  .success {
+    color: green;
+    font-size: 14px;
+  }
+  
+  .error {
+    color: red;
+    font-size: 14px;
+  }
+  
+  /* Style for login text */
+  .signup-box p {
+    margin-top: 10px;
+  }
+  
+  .signup-box a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .signup-box a:hover {
+    text-decoration: underline;
+    color:indigo;
+  }
+  
